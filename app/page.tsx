@@ -18,7 +18,6 @@ export default function Home() {
   // -------------------------------
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -27,11 +26,8 @@ export default function Home() {
         
         if (result.success) {
           setProducts(result.data);
-        } else {
-          setError(result.error || 'Failed to fetch products');
         }
       } catch (err) {
-        setError('Failed to fetch products');
         console.error('Error fetching products:', err);
       } finally {
         setLoading(false);
