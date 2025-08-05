@@ -73,46 +73,46 @@ Once the test is completed, you must submit the code to the repo in a branch con
    npm run dev
    ```
 
-3. **Open your browser and navigate to:** `http://localhost:3000`
+3. **Open your browser and navigate to:** [http://localhost:3000](http://localhost:3000)
 
 ## Dev Test Tasks
 
 ### 1. Code Exploration and Understanding
 
-**Objective**: Explore the codebase and understand how the application functions.
+- **Objective**: Explore the codebase and understand how the application functions.
 
 ### 2. Debugging the Main Page
 
-**Objective**: The main page is misconfigured and won't work. Identify and fix the issue.
+- **Objective**: The main page is misconfigured and won't work. Identify and fix the issue.
 
 ### 3. Product Data Analysis
 
-**Objective**: Explore the available product fields and determine what information would be pertinent to display.
+- **Objective**: Explore the available product fields and determine what information would be pertinent to display.
 
 ### 4. Image Implementation
 
-**Objective**: Add product images using the Next.js Image component. Also skim the documentation, and explain the advantages and disadvantages of `next/image` over the `img` tag
+- **Objective**: Add product images using the Next.js Image component. Also skim the documentation, and explain the advantages and disadvantages of `next/image` over the `img` tag
 
 ### 5. Price Formatting
 
-**Objective**: Format product prices to Mexican Peso (MXN) currency. No hardcoding or playing with the substring or regex, find the propper library and way to do it.
+- **Objective**: Format product prices to Mexican Peso (MXN) currency. No hardcoding or playing with the substring or regex, find the propper library and way to do it.
 
 ### 6. Cart Functionality
 
-**Objective**: Implement a shopping cart feature, remember to discuss the requirements, data structure, implementation and pseudocode to the interviewer before writing a single line of code.
+- **Objective**: Implement a shopping cart feature, remember to discuss the requirements, data structure, implementation and pseudocode to the interviewer before writing a single line of code.
 
 ### 7. Extra Features
 
 #### 7.1 Cart Sidebar
 
-**Objective**: Create a sidebar to display cart items with proper UI/HTML coding.
+- **Objective**: Create a sidebar to display cart items with proper UI/HTML coding.
 
 #### 7.2 Price Filtering
 
-**Objective**: Allow users to filter products by price range.
+- **Objective**: Allow users to filter products by price range.
 
 #### 7.3 Product Search
 
-**Objective**: Implement search functionality to find products by name.
+- **Objective**: Implement search functionality to find products by name.
 
 ## Good luck with your development test
