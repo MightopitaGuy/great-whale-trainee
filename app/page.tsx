@@ -48,22 +48,10 @@ export default function Home() {
 
 
   // +++++++++++++++++++++++++++++++
-
-
-  // BOILERPLATE UI CODE, DO NOT TOUCH
-  // -------------------------------
   if (loading) {
     return (
       <div className={styles.page}>
         <h1>Loading products...</h1>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className={styles.page}>
-        <h1>Error: {error}</h1>
       </div>
     );
   }
@@ -79,12 +67,6 @@ export default function Home() {
             <tr key={product.id} style={{ borderBottom: '1px solid #ddd' }}>
               <td style={{ padding: '12px', fontWeight: 'bold' }}>
                 {product.name}
-              </td>
-              <td style={{ padding: '12px' }}>
-                {product.description}
-              </td>
-              <td style={{ padding: '12px' }}>
-                {product.price}
               </td>
             </tr>
           ))}

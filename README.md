@@ -12,7 +12,6 @@ Read the instructions carefully
 - **Backend**: Next.js API Routes
 - **Database**: SQLite with sqlite3 driver
 - **Styling**: CSS Modules
-- **Image Optimization**: Next.js Image component
 
 ## Considerations
 
@@ -34,13 +33,12 @@ The interviewer will evaluate:
 3. **Planning**: Thorough discussion of requirements before implementation
 4. **Implementation**: Clean, maintainable code with proper error handling
 5. **User Experience**: Consideration of UX in feature implementation
-6. **Documentation**: Clear explanation of decisions and approaches
 
 ## Submission Guidelines
 
 Once the test is completed, you must submit the code to the repo in a branch containing your name, for example
 
-`git checkout -b encino-lopez`
+`norberto-ponce`
 
 ## Tips for Success
 
@@ -49,7 +47,7 @@ Once the test is completed, you must submit the code to the repo in a branch con
 - **Test incrementally**: Verify each feature works before moving to the next
 - **Consider edge cases**: Handle error states and empty data scenarios
 - **Focus on UX**: Make the application user-friendly and intuitive
-- **Document decisions**: Explain why you chose specific approaches
+- **Explain decisions**: Explain why you chose specific approaches
 
 ## Recomended documentation
 
@@ -99,7 +97,7 @@ Once the test is completed, you must submit the code to the repo in a branch con
 
 ### 6. Cart Functionality
 
-- **Objective**: Implement a shopping cart feature, remember to discuss the requirements, data structure, implementation and pseudocode to the interviewer before writing a single line of code.
+- **Objective**: Implement a shopping cart feature, remember to discuss the requirements, data structure, implementation and pseudocode to the interviewer before writing a single line of code. UI is not needed, you can debug or use `console.log` to see the cart data.
 
 ### 7. Extra Features
 
@@ -107,12 +105,12 @@ Once the test is completed, you must submit the code to the repo in a branch con
 
 - **Objective**: Create a sidebar to display cart items with proper UI/HTML coding.
 
-#### 7.2 Price Filtering
-
-- **Objective**: Allow users to filter products by price range.
-
-#### 7.3 Product Search
+#### 7.2 Product Search
 
 - **Objective**: Implement search functionality to find products by name.
+
+#### 7.3 Price Filtering
+
+- **Objective**: Allow users to filter products by price range.
 
 ## Good luck with your development test
