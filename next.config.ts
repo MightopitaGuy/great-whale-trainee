@@ -1,7 +1,25 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const initConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/this-page-does-not-exist",
+        permanent: false,
+      },
+    ];
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "---------",
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+
+
+export default initConfig;
